@@ -14,7 +14,8 @@ With an intuitive interface and dynamic product display, the app makes it easy f
 
 ## 🚀 Demo
 
-[Live Demo]([https://emergancy-store.vercel.app/])
+[🔗 Live Demo](https://emergancy-store.vercel.app/)
+
 
 ## 📸 Screenshots
 
