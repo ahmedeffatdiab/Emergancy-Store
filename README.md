@@ -20,8 +20,9 @@ With an intuitive interface and dynamic product display, the app makes it easy f
 ## 📸 Screenshots
 
 <!-- Optional -->
-![Screenshot 1]([link-to-image.png](https://res.cloudinary.com/dptz3ognb/image/upload/v1757808855/13_pft3te.png))
-![Screenshot 2]([link-to-image.png](https://res.cloudinary.com/dptz3ognb/image/upload/v1757808854/12_tz0bln.png))
+![Screenshot 1](https://res.cloudinary.com/dptz3ognb/image/upload/v1757808855/13_pft3te.png)
+![Screenshot 2](https://res.cloudinary.com/dptz3ognb/image/upload/v1757808854/12_tz0bln.png)
+
 
 ## 🛠️ Features
 
