@@ -25,16 +25,17 @@ With an intuitive interface and dynamic product display, the app makes it easy f
 
 ## 🛠️ Features
 
-- Feature 1 (e.g., Search Quran Surahs)
-- Feature 2 (e.g., Real-time recitations)
-- Feature 3 (e.g., Responsive design using Next.js)
-- Feature 4 (e.g., API integration with Quran Cloud)
+- Feature 1 (e.g., Search Product by name and category)
+- Feature 2 (e.g., Add Products to Cart and can make Order after make Payment process)
+- Feature 2 (e.g., Can Make Product Rating)
+- Feature 3 (e.g., Responsive design )
+- Feature 4 (e.g., API integration with Products APi and make authentiction and authorization)
 
 ## ⚙️ Tech Stack
 
-- **Frontend:** Next.js, TypeScript, Tailwind CSS
-- **APIs:** Quran API, Firebase Auth
-- **Deployment:** Vercel / Netlify
+- **Frontend:** Next.js, TypeScript, Tailwind CSS,shadcn Ui
+- **APIs:** Express.MongoDB,Stripe, Cloundinary
+- **Deployment:** Vercel 
 
 ## 📂 Folder Structure
 
