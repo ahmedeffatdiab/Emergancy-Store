@@ -49,38 +49,19 @@ export default function ProductCard({ product }: Props) {
             -{product.discount}%
           </Badge>
         )}
-        <Image
-          src={product.imageUrls[0]}
-          alt={product.title}
-          fill
-          className="object-cover transition-opacity duration-300 group-hover:opacity-0"
-        />
-
-        <Image
-          src={product.imageUrls[1] || product.imageUrls[0]}
-          alt={`${product.title} alternate view`}
-          fill
-          className="absolute inset-0 object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-        />
+        <Image src={product.imageUrls[0]} alt={product.title} fill className="object-cover transition-opacity duration-300 group-hover:opacity-0"/>
+        <Image src={product.imageUrls[1] || product.imageUrls[0]} alt={`${product.title} alternate view`} fill
+          className="absolute inset-0 object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"/>
 
         <div className="absolute top-2 right-2 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-6 group-hover:translate-x-0 z-30">         
           <AddLoveButton product={product}/>
 
-          <Link href={`/productDetails/${product._id}`}>
-            <Button
-              size="icon"
-              variant="ghost"
-              className="bg-white shadow hover:bg-gray-100"
-            >
-              <Eye className="w-4 h-4 text-gray-700" />
+          <Link href={`/productDetails/${product._id}`} >
+            <Button size="icon" variant="ghost" className="bg-white shadow cursor-pointer hover:bg-gray-100">
+              <Eye className="w-4 h-4 text-gray-700"  />
             </Button>
           </Link>
-          <Button
-            onClick={handleAddToCart}
-            size="icon"
-            variant="ghost"
-            className="bg-white shadow hover:bg-gray-100"
-          >
+          <Button onClick={handleAddToCart} size="icon" variant="ghost" className="bg-white cursor-pointer shadow hover:bg-gray-100" >
             <ShoppingCart className="w-4 h-4 text-gray-700" />
           </Button>
         </div>

@@ -25,12 +25,12 @@ const SliderCategory = ({ categoryData }: Props) => {
           <CarouselNext className="hidden md:flex absolute -right-8 top-1/2 -translate-y-1/2 z-10" />
           <CarouselContent>
             {categoryData.map((item, index) => (
-              <CarouselItem key={index} className="basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/6" >
-                <Link href={`/categoryList/${item.title}`} className='hover:bg-gray-300 opacity-70'>
-                <div className="flex items-center gap-3 p-4 border-y text-white shadow rounded">
+              <CarouselItem key={index} className="basis-1/2  sm:basis-1/3 md:basis-1/4 lg:basis-1/6" >
+                <Link href={`/categoryList/${item.title}`} className=' opacity-70'>
+                <div className="flex items-center gap-3  p-4 border-y border-x dark:border-white hover:bg-gray-200 dark:hover:bg-gray-600  shadow rounded">
                   <Image src={item.img} alt={item.title} width={40} height={40} className="object-contain"/>
-                  <div className="text-left text-gray-950 dark:text-white">
-                    <h3 className="text-sm font-medium ">
+                  <div className="text-left">
+                    <h3 className="text-sm font-medium  ">
                       {item.title}
                     </h3>
                     <p className="text-xs ">({item.count})</p>
